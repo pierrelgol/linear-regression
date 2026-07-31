@@ -1,0 +1,21 @@
+.{
+    .name = .linear_regression,
+    .version = "0.0.0",
+    .fingerprint = 0x4970fdc9a1e2018f,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .vaxis = .{
+            .url = "git+https://github.com/rockorager/libvaxis#cca454be4e002dbe1a386ff0fd3420ea21813fb5",
+            .hash = "vaxis-0.6.0-BWNV_DYXCgBP-oydkwMvwclWtjMrMAmSmg7cO6wtYFno",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+        "LICENSE",
+        "src",
+        "data",
+        "weight.pt",
+    },
+}
